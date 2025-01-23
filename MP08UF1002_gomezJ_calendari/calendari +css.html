@@ -1,0 +1,137 @@
+<html>
+    <head>
+        <title>Calendari</title>
+    </head>
+    <style>
+        .mp07:hover, .mp08:hover, .mp09:hover, .tut:hover {
+            background-color:antiquewhite;
+            color:rgb(0, 0, 0);
+        }
+
+        body{
+            background-color:rgb(245, 140, 11);
+            font-family: helvetica; 
+            text-align: center; 
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        table {
+            color:rgb(13, 4, 64);
+            background-color:rgb(224, 232, 182);
+            text-align: center;
+            width: 800px;
+            margin: auto;
+        }
+
+        th{
+            color:rgb(13, 4, 64);
+            width: 166px;
+        }
+
+        .mp07{
+            background-color:rgb(121, 75, 129);
+        }
+        .mp07:hover{
+            background-color:antiquewhite;
+        }
+
+        .mp09{
+            background-color:rgb(57, 55, 55)
+        }
+        .mp09:hover{
+            background-color:antiquewhite;
+        }
+        .mp08{
+            background-color:rgb(148, 141, 196)
+        }
+        .mp08:hover{
+            background-color:antiquewhite;
+        }
+
+        .tuto{
+            background-color:beige
+        }
+        .tuto:hover{
+            background-color:rgb(13, 4, 64);
+        }
+        .pati{
+            background-color:rgba(87, 149, 196, 0.486)
+        }
+        .pati:hover{
+            background-color:antiquewhite;
+        }
+
+        /* com combinar etiquetes*/
+
+        .mp07, .mp08, .mp09, .pati {
+            color:antiquewhite;
+        }
+
+
+    </style>
+
+    <body>
+       <h1> Horari </h1>
+        <table>
+            <tr>
+                <th></th>
+                <th>Dilluns</th>
+                <th>Dimarts</th>
+                <th>Dimecres</th>
+                <th>Dijous</th>
+                <th>Divendres</th>
+            </tr>
+            <tr>
+                <td>15:30 - 16:00</td>
+                <td rowspan="5" class="mp07">MP07</td>
+                <td></td>
+                <td></td>
+                <td rowspan="5" class="mp07">MP07</td>
+                <td></td> 
+            </tr>
+            <tr>
+                <td>16:00 - 16:30</td>
+                <td rowspan="2" class="mp09">MP09</td>
+                <td></td>
+                <td rowspan="4" class="mp08">MP08</td>
+            </tr>
+            <tr>
+                <td>16:30 - 17:00</td>
+                <td rowspan="3" class="mp08">MP08</td>
+            </tr>
+            <tr>
+                <td>17:00 - 17:30</td>
+                <td rowspan="2" class="tuto">Tuto</td>
+            </tr>
+            <tr>
+                <td>17:30 - 18:00</td>
+            </tr>
+            <tr>
+                <td>18:00 - 18:30</td>
+                <td colspan="5" class="pati">Pati</td>
+            </tr>
+            <tr>
+                <td>18:30 - 19:00</td> 
+                <td rowspan="4" class="mp09">MP09</td>
+                <td rowspan="4" class="mp09">MP09</td>
+                <td rowspan="5" class="mp08">MP08</td>
+                <td rowspan="4" class="mp08">MP08</td>
+                <td rowspan="4" class="mp08">MP08</td>
+            </tr>
+            <tr>
+                <td>19:00 - 19:30</td>  
+            </tr>
+            <tr>
+                <td>19:30 - 20:00</td> 
+            </tr>
+            <tr>
+                <td>20:00 - 20:30</td> 
+            </tr>
+            <tr>
+                <td>20:30 - 21:00</td> 
+            </tr>
+    </body>
+ </html>

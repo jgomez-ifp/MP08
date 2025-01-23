@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Arabic Ramadhan';
+    src: url('ArabicRamadhan-Regular.eot');
+    src: url('ArabicRamadhan-Regular.eot?#iefix') format('embedded-opentype'),
+        url('ArabicRamadhan-Regular.woff2') format('woff2'),
+        url('ArabicRamadhan-Regular.woff') format('woff'),
+        url('ArabicRamadhan-Regular.ttf') format('truetype'),
+        url('ArabicRamadhan-Regular.svg#ArabicRamadhan-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

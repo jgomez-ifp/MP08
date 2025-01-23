@@ -1,0 +1,80 @@
+body{
+    font-family: Helvetica, Sans-Serif;
+}
+
+header{
+    height: 50px;
+    background-color: black;
+    opacity: 50%;
+}
+
+nav{
+    background-color: grey;
+}
+
+article{
+    background-color: black;
+}
+
+.logo {
+    margin: 5px 20px;
+    float: left;
+    background-color: ;
+}
+
+.titol h1{
+    color: #FFF;
+    margin-top: 25px;
+    float: left;
+    font-size: 17px;
+}
+
+.titol{
+    background: ;
+}
+
+.titol h2{
+    color: #FFF;
+    float: right;
+    margin-top: 28px;
+    font-size: 17px;
+}
+
+.tit1 h1{
+    color: black;
+    font-size: 22px;
+}
+
+.entrada{
+    padding: 20px;
+    float:left;
+}
+
+.titolf{
+    font-size: 14px;
+    color: #CCC;
+}
+
+.any{
+    font-size: 11px;
+    color: #CCC;
+    width: 50%;
+}
+
+.tipus{
+    font-size: 11px;
+    color: #CCC;
+    float: right;
+    margin-top: -23px;
+}
+
+
+
+.reaccions{
+    background-color:;
+    width: 177px;
+}
+
+.contenidor2{
+ background: black;
+}
