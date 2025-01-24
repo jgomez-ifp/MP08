@@ -11,6 +11,7 @@ html, body{
     font-weight: 400;
     font-style: normal;
     cursor:url(../img/ponter.png), auto;
+    overflow-x: hidden;
 }
 
 nav{
@@ -402,6 +403,7 @@ h2:active + .finestra{
     img{
         Width: 22px;
         height: 17px;
+        margin: 10px 20px;
     }
 
     .p1{
