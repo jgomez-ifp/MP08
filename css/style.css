@@ -105,21 +105,9 @@ h1{
     font-family: 'Source Code Pro', monospace;  
     font-size: 80px;
     color:#5c1a36;
-}
 
-.p1 h1{
     animation: animated-text 3s linear 1s 1 normal both,
     animated-cursor 600ms linear infinite;
-}
-
-. {
-    background: white;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    background: rgb(223,164,86);
-    background: linear-gradient(0deg, rgba(223,164,86,1) 0%, rgba(220,162,183,1) 36%);
-    height: 60%;
-    position: relative;
 }
 
 .p1 .b1{
@@ -381,30 +369,6 @@ h2:active + .finestra{
 
 
 
-
-/*
-
-.p3 ul{
-    text-align: center;
-    height: 40%;
-}
-
-.p3 li{
-    display: inline-block;
-    margin: 170px 40px;
-    overflow: hidden;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-    color:#5c1a36;
-    font-size: 25px;
-    text-shadow: 1px 1px 2px rgb(223,164,86);
-    list-style-type: none;
-}
-*/
-
-
-
-
 @keyframes animated-text{
     from{width: 0;}
     to{width: 480px;}
@@ -415,3 +379,75 @@ h2:active + .finestra{
     from{border-right-color: rgba(255,255,255,.75);}
     to{border-right-color: transparent;}
 }
+
+
+
+
+/* responsive */
+
+@keyframes analitzador{
+    to {
+        scale: 1 1;
+    }
+}
+
+@media screen and (max-width: 480px){
+    /*aqui va el disseny smartphone*/
+
+    nav li{
+        font-size: 15px;
+    }
+
+    .p1{
+        height: 30%;
+    }
+
+    .p1 h1{
+        font-size: 50px;
+    }
+
+    .p2 {
+        height: fit-content;
+    }
+
+    .p2 li{
+        font-size: 15px;
+        width: 414px;
+        height: 60px;
+        line-height: 45px;
+        box-shadow: 0px 7px #78251c;
+    }
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 1279px){
+    
+    /*aqui va el disseny tablet*/
+    
+    body{
+        background: var(--color2);
+    }
+    h1{
+        font-size: 2rem;
+    }
+}
+
+
+
+@media screen and (min-width: 1280px) {
+
+    /*aqui va el disseny ordinador*/
+    
+    body{
+        background: var(--color3);
+    }
+
+    h1{
+        font-size: 4rem;
+    }
+
+    p{
+        columns: 2;
+    }
+}
+
