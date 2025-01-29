@@ -1,4 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
+
+html, body{
+    height:100%;
+    font-family: "Playwrite ZA", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    cursor:url(../img/ponter.png), auto;
+    overflow-x: hidden;
+}
 
 nav{
     position: fixed; 
@@ -388,7 +402,6 @@ h2:active + .finestra{
     img{
         Width: 22px;
         height: 17px;
-        margin: 10px 45px;
     }
 
     .p1{
@@ -455,4 +468,3 @@ h2:active + .finestra{
         columns: 2;
     }
 }
-
