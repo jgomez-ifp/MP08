@@ -183,3 +183,38 @@ article {
     background: red;
     display: inline-block;
 }
+
+input {
+    visibility: hidden;
+  }
+  
+  #agradador{
+    margin: 2rem 0 0 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: #ddd;
+    position: relative;
+    border-radius: 1rem;
+    float:left;
+    bottom: 20px;
+  }
+  
+  #agradador label {
+    width: 2rem;
+    height: 2rem;
+    visibility: visible; 
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .5s ease;
+    cursor: pointer;
+    opacity: 0;
+    background-image: url(../img/heart.svg.png); 
+    background-size: 2rem 2rem;
+    background-repeat: no-repeat;
+  }
+  
+  #agradador input[type=checkbox]:checked+label {
+    opacity: 1;
+  }
